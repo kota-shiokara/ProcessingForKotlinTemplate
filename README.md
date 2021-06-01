@@ -44,10 +44,11 @@ or
 ```
 gradle shadow
 ```
+**The output file is stored under build/libs/.**
 
 ## Run
 ```bash
-java -jar "Your_Project_Name-Project_Version.jar"
+java -jar "Output_File_Name"
 ```
 
 ## Author
