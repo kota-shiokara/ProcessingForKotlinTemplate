@@ -1,9 +1,9 @@
 # ProcessingForKotlinTemplate
-A template for doing "Processing" for Kotlin
+KotlinでProcessingをやるときのテンプレート  
 
-En|[Ja](./README.ja.md)  
+[En](./README.md)|Ja  
 
-## Usage
+## 使い方
 ### Clone template
 ```bash
 mkdir Your_Project_Name
@@ -11,17 +11,17 @@ cd Your_Project_Name
 git clone https://github.com/kota-shiokara/ProcessingForKotlinTemplate.git
 ```
 
-### Edit settings.gradle
+### settings.gradleの修正
 ```settings.gradle
 rootProject.name='Your_Project_Name'
 ```
 
-### Edit build.gradle
+### build.gradleの修正
 ```build.gradle
 group 'Your_Group_Name'
 ```
 
-### Edit src/main/kotlin/main.kt
+### src/main/kotlin/main.ktの追記
 ```kt
 class Main : PApplet(){
                 .
@@ -37,7 +37,7 @@ class Main : PApplet(){
                 .
 ```
 
-## Build
+## ビルド
 ```bash
 ./gradle shadow
 ```
@@ -45,20 +45,20 @@ or
 ```
 gradle shadow
 ```
-**The output file is stored under build/libs/.**
+**出力ファイルはbuild/libs/以下に格納されます。**
 
 ## Run
 ```bash
 java -jar "Output_File_Name"
 ```
 
-## Author
+## 開発者情報
 - [kota-shiokara](https://github.com/kota-shiokara)
 - Email: ikanoshiokara.fun@gmail.com
 - Twitter: [@shiokara_create](https://twitter.com/shiokara_create)
 
-## About Report
-Please use [issue](https://github.com/kota-shiokara/ProcessingForKotlinTemplate/issues) for filing feature requests and bug reports. Or use the contact information above.
+## 報告
+バグの報告、改善の要望につきましては [issue](https://github.com/kota-shiokara/ProcessingForKotlinTemplate/issues) もしくは上記連絡先にお願いします。  
 
 ## License
 [MIT License](https://choosealicense.com/licenses/mit/)
