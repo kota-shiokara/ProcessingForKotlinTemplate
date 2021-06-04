@@ -1,10 +1,10 @@
 # ProcessingForKotlinTemplate
 KotlinでProcessingをやるときのテンプレート  
 
-[En](./README.md)|Ja  
+[En](./README.md) | Ja  
 
 ## 使い方
-### Clone template
+### テンプレートのクローン
 ```bash
 mkdir Your_Project_Name
 cd Your_Project_Name

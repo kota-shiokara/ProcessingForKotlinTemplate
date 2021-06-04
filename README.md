@@ -1,7 +1,7 @@
 # ProcessingForKotlinTemplate
 A template for doing "Processing" for Kotlin
 
-En|[Ja](./README.ja.md)  
+En | [Ja](./README.ja.md)  
 
 ## Usage
 ### Clone template
