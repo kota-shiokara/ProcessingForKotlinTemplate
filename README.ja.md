@@ -3,6 +3,9 @@ KotlinでProcessingをやるときのテンプレート
 
 [En](./README.md) | Ja  
 
+## 使用ライブラリ
+- [shadow](https://github.com/johnrengelman/shadow) ([Apache License](http://www.apache.org/licenses/LICENSE-2.0))
+
 ## 使い方
 ### テンプレートのクローン
 ```bash

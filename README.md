@@ -3,6 +3,9 @@ A template for doing "Processing" for Kotlin
 
 En | [Ja](./README.ja.md)  
 
+## Use Library
+- [shadow](https://github.com/johnrengelman/shadow) ([Apache License](http://www.apache.org/licenses/LICENSE-2.0))
+
 ## Usage
 ### Clone template
 ```bash
