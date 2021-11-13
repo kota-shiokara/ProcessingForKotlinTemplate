@@ -9,19 +9,22 @@ KotlinでProcessingをやるときのテンプレート
 ## 使い方
 ### テンプレートのクローン
 ```bash
-mkdir Your_Project_Name
-cd Your_Project_Name
+mkdir 適当なリポジトリ
+cd 適当なリポジトリ
 git clone https://github.com/kota-shiokara/ProcessingForKotlinTemplate.git
+cd ProcessingForKotlinTemplate
 ```
+or
+**もしくは、このテンプレートを使用して新しいリポジトリを作成し、クローンしてください。**
 
 ### settings.gradleの修正
 ```settings.gradle
-rootProject.name='Your_Project_Name'
+rootProject.name='プロジェクトの名前'
 ```
 
 ### build.gradleの修正
 ```build.gradle
-group 'Your_Group_Name'
+group 'あなたのグループ名'
 ```
 
 ### src/main/kotlin/main.ktの追記
@@ -30,29 +33,41 @@ class Main : PApplet(){
                 .
                 .
     override fun setup() {
-        /* Write Your Code */
+        /* あなたのコードを書いてください */
     }
 
     override fun draw() {
-        /* Write Your Code */
+        /* あなたのコードを書いてください */
     }
                 .
                 .
 ```
 
-## ビルド
+## Run
+プロジェクトのルート直下、このファイルがある場所で下記のコマンドを入力してください。
 ```bash
-./gradle shadow
+# Linux もしくは macOS
+./gradlew run
 ```
-or
+もしくは
+```cmd
+@rem windows(コマンドプロンプト)
+gradlew run
 ```
-gradle shadow
+
+### ビルド
+```bash
+./gradlew shadow
+```
+もしくは
+```cmd
+gradlew shadow
 ```
 **出力ファイルはbuild/libs/以下に格納されます。**
 
-## Run
+### Run
 ```bash
-java -jar "Output_File_Name"
+java -jar "出力ファイルの名前(もしくはそれを含めたパス)"
 ```
 
 ## 開発者情報

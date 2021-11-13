@@ -9,10 +9,13 @@ En | [Ja](./README.ja.md)
 ## Usage
 ### Clone template
 ```bash
-mkdir Your_Project_Name
-cd Your_Project_Name
+mkdir Your_Cool_Project_Name
+cd Your_Cool_Project_Name
 git clone https://github.com/kota-shiokara/ProcessingForKotlinTemplate.git
+cd ProcessingForKotlinTemplate
 ```
+or
+**Use this template to create a new repository and clone it.**
 
 ### Edit settings.gradle
 ```settings.gradle
@@ -40,17 +43,31 @@ class Main : PApplet(){
                 .
 ```
 
-## Build
+## Run
+Type the following command directly under the root of project.
 ```bash
-./gradle shadow
+# Linux or macOS
+./gradlew run
 ```
 or
+```cmd
+@rem windows(command prompt)
+gradlew run
 ```
-gradle shadow
+
+**If you want to distribute your work as a jar file, type the following command.**
+
+### Build
+```bash
+./gradlew shadow
+```
+or
+```cmd
+gradlew shadow
 ```
 **The output file is stored under build/libs/.**
 
-## Run
+### Run
 ```bash
 java -jar "Output_File_Name"
 ```
