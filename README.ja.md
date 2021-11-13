@@ -55,6 +55,8 @@ class Main : PApplet(){
 gradlew run
 ```
 
+**もしあなたが自分の作品をJarファイルで公開等したい場合、下記の工程を行ってください。**
+
 ### ビルド
 ```bash
 ./gradlew shadow
