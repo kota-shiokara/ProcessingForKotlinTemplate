@@ -59,11 +59,11 @@ gradlew run
 
 ### Build
 ```bash
-./gradlew shadow
+./gradlew shadowJar
 ```
 or
 ```cmd
-gradlew shadow
+gradlew shadowJar
 ```
 **The output file is stored under build/libs/.**
 

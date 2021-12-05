@@ -59,11 +59,11 @@ gradlew run
 
 ### ビルド
 ```bash
-./gradlew shadow
+./gradlew shadowJar
 ```
 もしくは
 ```cmd
-gradlew shadow
+gradlew shadowJar
 ```
 **出力ファイルはbuild/libs/以下に格納されます。**
 
