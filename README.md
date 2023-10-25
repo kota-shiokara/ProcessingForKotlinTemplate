@@ -5,6 +5,8 @@ En | [Ja](./README.ja.md)
 
 ## Use Library
 - [shadow](https://github.com/johnrengelman/shadow) ([Apache License](http://www.apache.org/licenses/LICENSE-2.0))
+- [Processing](https://processing.org/)
+    - [version](https://mvnrepository.com/artifact/org.processing/core)
 
 ## Usage
 ### Clone template

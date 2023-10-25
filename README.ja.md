@@ -5,6 +5,8 @@ KotlinでProcessingをやるときのテンプレート
 
 ## 使用ライブラリ
 - [shadow](https://github.com/johnrengelman/shadow) ([Apache License](http://www.apache.org/licenses/LICENSE-2.0))
+- [Processing](https://processing.org/)
+  - [version](https://mvnrepository.com/artifact/org.processing/core)
 
 ## 使い方
 ### テンプレートのクローン
@@ -28,7 +30,7 @@ group 'あなたのグループ名'
 ```
 
 ### src/main/kotlin/main.ktの追記
-```kt
+```kotlin
 class Main : PApplet(){
                 .
                 .
